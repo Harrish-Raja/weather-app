@@ -1,0 +1,63 @@
+.weather_container {
+    color: white;
+}
+
+.temperature {
+    font-size: 4rem;
+}
+
+.time_location {
+    font-size: 2rem;
+}
+
+.condition {
+    font-size: 2rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: maroon;
+    display: flex;
+    flex-direction: column; /* Aligns weather and search area vertically */
+    justify-content: center;
+    align-items: flex-start; /* Aligns content to the left */
+    padding-left: 50px; /* Adjusts left margin for overall content */
+}
+
+.search_area {
+    padding: 1rem 0;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-bottom: 2px solid white;
+    margin-right: 10px;
+    width: 98%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 300px; /* Adds space between the weather section and search area */
+}
+
+nav form button {
+    padding: 0.5rem;
+    background-color: white;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+
