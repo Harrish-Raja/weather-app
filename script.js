@@ -1,4 +1,5 @@
-// API URL
+// API URL http://api.weatherapi.com/v1/current.json?key=7438fe30f0964b6daf391826240612&q=chennai&aqi=no
+
 const temperatureField = document.querySelector(".temp");
 const locationField = document.querySelector(".time_location p");
 const dateandTimeField = document.querySelector(".time_location span");
@@ -20,7 +21,7 @@ form.addEventListener('submit', searchForLocation);
 let target = 'Lucknow';
 
 const fetchResults = async (targetLocation) => {
-    let url = `http://api.weatherapi.com/v1/current.json?key=1995549fb77e487ca9a101922241910&q=${targetLocation}&aqi=no`;
+    let url = `http://api.weatherapi.com/v1/current.json?key=7438fe30f0964b6daf391826240612&q=${targetLocation}&aqi=no`;
 
     console.log("Fetching data for:", targetLocation); // Debugging the location being fetched
 
